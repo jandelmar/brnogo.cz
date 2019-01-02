@@ -1,6 +1,6 @@
 import React from 'react'
 
-import {GlobalStyle} from '../styles/index'
+import { GlobalStyle } from '../styles/index'
 import Navigation from './navigation'
 
 export default ({ children }) => (

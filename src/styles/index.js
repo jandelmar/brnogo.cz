@@ -8,7 +8,7 @@ const GlobalStyle = createGlobalStyle`
   body {
     color: white;
     margin: 0 auto;
-    maxWidth: 650;
+    max-width: 650px;
     padding: 0 1rem;
     background: ${primary};
   }
