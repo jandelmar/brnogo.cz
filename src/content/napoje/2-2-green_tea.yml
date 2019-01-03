@@ -1,0 +1,8 @@
+cz:
+  kategorie: Domácí limonády
+  napoj: Green Tea
+en:
+  kategorie: Home-made lemonades
+  napoj: Green Tea
+objem: [0.4, 1]
+cena: [59, 109]
