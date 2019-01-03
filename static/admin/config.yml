@@ -1,11 +1,25 @@
 backend:
-  name: git-gateway # Git backend protocol
-  branch: gatsby-netlify-cms # Branch to update (optional; defaults to master)
-media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
-public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
+  name: github
+  repo: jandelmar/brnogo.cz
+# Media files will be stored in the repo under static/images/uploads
+media_folder: "static/images/uploads"
+ # The src attribute for uploaded media will begin with /images/uploads
+public_folder: "/images/uploads"
 collections:
-  - name: menu
-    label: "Menu"
-    file: "data/menu.yml"
+  - name: jidlo
+    label: "Jídlo"
+    create: true
+    folder: "src/content/jidlo/"
     format: "yml"
-
+    fields:
+      - {label: "CZ kategorie", name: "kategorie", widget: "string"}
+      - {label: "CZ jidlo", name: "jidlo", widget: "string"}
+      - {label: "CZ popis", name: "popis", widget: "string"}
+  - name: napoje
+    label: "Nápoje"
+    create: true
+    folder: "src/content/napoje/"
+    format: "yml"
+    fields:
+      - {label: "CZ kategorie", name: "kategorie", widget: "string"}
+      - {label: "CZ napoj", name: "napoj", widget: "string"}
