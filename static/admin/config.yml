@@ -26,26 +26,16 @@ collections:
       - { name: alergeny, label: Alergeny, widget: list, required: false }
       - { name: typ, label: Typ, widget: select, options: [V, VEG], required: false }
       - { name: cena, label: Cena, widget: number, valueType: int }
-  - name: kategorie
-    label: Kategorie
-    files:
-      - label: jidlo-kategorie
-        name: Kategorie jidel
-        file: content/jidlo-kategorie.yml
+  - name: jidlo-kategorie
+    label: Kategorie Jídel
+    create: true
+    folder: content/jidlo-kategorie/
+    identifier_field: cz-jidlo
+    format: yml
+    fields:
+      - { name: kategorie, label: Kategorie, widget: string }
+      - label: EN
+        name: en
+        widget: object
         fields:
-          - { name: kategorie, label: Kategorie, widget: string }
-          - label: EN
-            name: en
-            widget: object
-            fields:
-              - { name: en-kategorie, label: Kategorie, widget: string }
-      - label: napoje-kategorie
-        name: Kategorie nápojů
-        file: content/napoje-kategorie.yml
-        fields:
-          - { name: kategorie, label: Kategorie, widget: string }
-          - label: EN
-            name: en
-            widget: object
-            fields:
-              - { name: en-kategorie, label: Kategorie, widget: string }
+          - { name: en-kategorie, label: Kategorie, widget: string }
