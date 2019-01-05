@@ -14,13 +14,9 @@ collections:
     identifier_field: cz-jidlo
     format: yml
     fields:
-      - label: CZ
-        name: cz
-        widget: object
-        fields:
-          - { name: cz-jidlo, label: Jídlo, widget: string }
-          - { name: cz-popis, label: Popis, widget: string }
-          - { name: cz-kategorie, label: Kategorie, widget: string }
+      - { name: cz-jidlo, label: Jídlo, widget: string }
+      - { name: cz-popis, label: Popis, widget: string }
+      - { name: cz-kategorie, label: Kategorie, widget: string }
       - label: EN
         name: en
         widget: object
