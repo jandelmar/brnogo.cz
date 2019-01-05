@@ -5,4 +5,8 @@ en:
   en-jidlo: a
   en-kategorie: c
   en-popis: b
+alergeny:
+  - '5'
+  - '8'
+  - '100'
 cena: 55
