@@ -15,11 +15,11 @@ collections:
     format: yml
     fields:
       - { name: cz-kategorie, label: CZ kategorie, widget: string }
-      - { name: cz-jidlo", label: CZ jidlo", widget: string }
-      - { name: cz-popis", label: CZ popis", widget: string }
-      - { name: en-kategorie", label: EN kategorie, widget: string }
+      - { name: cz-jidlo, label: CZ jidlo, widget: string }
+      - { name: cz-popis, label: CZ popis, widget: string }
+      - { name: en-kategorie, label: EN kategorie, widget: string }
       - { name: en-jidlo, label: EN jidlo, widget: string }
-      - { name: en-popis, label: "EN popis", widget: string }
+      - { name: en-popis, label: EN popis, widget: string }
   - name: napoje
     label: Nápoje
     create: true
