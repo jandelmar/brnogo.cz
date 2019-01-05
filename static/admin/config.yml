@@ -14,16 +14,28 @@ collections:
     identifier_field: cz-jidlo
     format: yml
     fields:
-      - { name: cz-jidlo, label: Jídlo, widget: string }
-      - { name: cz-popis, label: Popis, widget: string }
-      - { name: cz-kategorie, label: Kategorie, widget: string }
+      - { name: jidlo, label: Jídlo, widget: string }
+      - { name: popis, label: Popis, widget: string }
       - label: EN
         name: en
         widget: object
         fields:
           - { name: en-jidlo, label: Jídlo, widget: string }
           - { name: en-popis, label: Popis, widget: string }
-          - { name: en-kategorie, label: Kategorie, widget: string }
+      - { name: kategorie, label: Kategorie, widget: relation, collection: kategorie, searchFields: [kategorie], valueField: kategorie }
       - { name: alergeny, label: Alergeny, widget: list, required: false }
-      - { name: typ, label: Typ, widget: string, required: false }
+      - { name: typ, label: Typ, widget: select, options: [V, VEG], required: false }
       - { name: cena, label: Cena, widget: number, valueType: int }
+  - name: kategorie
+    label: Kategorie jídel
+    create: true
+    file: content/jidlo-kategorie.yml
+    identifier_field: cz-jidlo
+    format: yml
+    fields:
+      - { name: kategorie, label: Kategorie, widget: string }
+      - label: EN
+        name: en
+        widget: object
+        fields:
+          - { name: en-kategorie, label: Kategorie, widget: string }
