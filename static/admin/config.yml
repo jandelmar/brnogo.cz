@@ -11,16 +11,20 @@ collections:
     label: Jídlo
     create: true
     folder: "content/jidlo/"
-    format: "yml"
+    identifier_field: name
+    format: yml
     fields:
-      - {label: "CZ kategorie", name: "kategorie", widget: "string"}
-      - {label: "CZ jidlo", name: "jidlo", widget: "string"}
-      - {label: "CZ popis", name: "popis", widget: "string"}
+      - {name: "cz-kategorie", label: "CZ kategorie", widget: "string"}
+      - {name: "cz-jidlo", label: "CZ jidlo", widget: "string"}
+      - {name: "cz-popis", label: "CZ popis", widget: "string"}
+      - {name: "en-kategorie", label: "EN kategorie", widget: "string"}
+      - {name: "en-jidlo", label: "EN jidlo", widget: "string"}
+      - {name: "en-popis", label: "EN popis", widget: "string"}
   - name: napoje
     label: Nápoje
     create: true
     folder: "content/napoje/"
-    format: "yml"
+    format: yml
     fields:
       - {label: "CZ kategorie", name: "kategorie", widget: "string"}
       - {label: "CZ napoj", name: "napoj", widget: "string"}
