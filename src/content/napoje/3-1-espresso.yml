@@ -1,7 +1,8 @@
-napoj: Espresso
-kategorie: Káva, čaj
-en:
+cz:
+  kategorie: Káva, čaj
   napoj: Espresso
+en:
   kategorie: Coffee, tea
+  napoj: Espresso
 objem: []
 cena: [39]

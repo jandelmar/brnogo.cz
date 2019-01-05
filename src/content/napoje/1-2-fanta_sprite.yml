@@ -1,7 +1,8 @@
-napoj: Fanta, Sprite
-kategorie: Nealkoholické nápoje
-en:
+cz:
+  kategorie: Nealkoholické nápoje
   napoj: Fanta, Sprite
+en:
   kategorie: Non-alcoholic drinks
+  napoj: Fanta, Sprite
 objem: [0.33]
 cena: [39]
