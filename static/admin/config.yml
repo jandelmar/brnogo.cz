@@ -1,6 +1,7 @@
 backend:
   name: github
   repo: jandelmar/brnogo.cz
+  branch:
 # Media files will be stored in the repo under static/images/uploads
 media_folder: "static/images/uploads"
  # The src attribute for uploaded media will begin with /images/uploads
@@ -9,7 +10,7 @@ collections:
   - name: jidlo
     label: "Jídlo"
     create: true
-    folder: "src/content/jidlo/"
+    folder: "content/jidlo/"
     format: "yml"
     fields:
       - {label: "CZ kategorie", name: "kategorie", widget: "string"}
@@ -18,7 +19,7 @@ collections:
   - name: napoje
     label: "Nápoje"
     create: true
-    folder: "src/content/napoje/"
+    folder: "content/napoje/"
     format: "yml"
     fields:
       - {label: "CZ kategorie", name: "kategorie", widget: "string"}
