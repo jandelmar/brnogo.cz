@@ -11,7 +11,7 @@ collections:
     label: Jídlo
     create: true
     folder: content/jidlo/
-    identifier_field: name
+    identifier_field: cz-jidlo
     format: yml
     fields:
       - { name: cz-kategorie, label: CZ kategorie, widget: string }
@@ -20,11 +20,3 @@ collections:
       - { name: en-kategorie, label: EN kategorie, widget: string }
       - { name: en-jidlo, label: EN jidlo, widget: string }
       - { name: en-popis, label: EN popis, widget: string }
-  - name: napoje
-    label: Nápoje
-    create: true
-    folder: content/napoje/
-    format: yml
-    fields:
-      - { label: CZ kategorie, name: kategorie, widget: string }
-      - { label: CZ napoj, name: napoj, widget: string }
