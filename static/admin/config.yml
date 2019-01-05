@@ -28,6 +28,6 @@ collections:
           - { name: en-jidlo, label: Jídlo, widget: string }
           - { name: en-popis, label: Popis, widget: string }
           - { name: en-kategorie, label: Kategorie, widget: string }
-      - { name: alergeny, label: Alergeny, widget: list }
-      - { name: typ, label: Typ, widget: string }
+      - { name: alergeny, label: Alergeny, widget: list, required: false }
+      - { name: typ, label: Typ, widget: string, required: false }
       - { name: cena, label: Cena, widget: number, valueType: int }
