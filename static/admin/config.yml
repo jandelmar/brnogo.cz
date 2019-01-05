@@ -3,28 +3,28 @@ backend:
   repo: jandelmar/brnogo.cz
   branch: netlify-cms-test
 # Media files will be stored in the repo under static/images/uploads
-media_folder: "static/images/uploads"
+media_folder: static/images/uploads
  # The src attribute for uploaded media will begin with /images/uploads
-public_folder: "/images/uploads"
+public_folder: /images/uploads
 collections:
   - name: jidlo
     label: Jídlo
     create: true
-    folder: "content/jidlo/"
+    folder: content/jidlo/
     identifier_field: name
     format: yml
     fields:
-      - {name: "cz-kategorie", label: "CZ kategorie", widget: "string"}
-      - {name: "cz-jidlo", label: "CZ jidlo", widget: "string"}
-      - {name: "cz-popis", label: "CZ popis", widget: "string"}
-      - {name: "en-kategorie", label: "EN kategorie", widget: "string"}
-      - {name: "en-jidlo", label: "EN jidlo", widget: "string"}
-      - {name: "en-popis", label: "EN popis", widget: "string"}
+      - { name: cz-kategorie, label: CZ kategorie, widget: string }
+      - { name: cz-jidlo", label: CZ jidlo", widget: string }
+      - { name: cz-popis", label: CZ popis", widget: string }
+      - { name: en-kategorie", label: EN kategorie, widget: string }
+      - { name: en-jidlo, label: EN jidlo, widget: string }
+      - { name: en-popis, label: "EN popis", widget: string }
   - name: napoje
     label: Nápoje
     create: true
-    folder: "content/napoje/"
+    folder: content/napoje/
     format: yml
     fields:
-      - {label: "CZ kategorie", name: "kategorie", widget: "string"}
-      - {label: "CZ napoj", name: "napoj", widget: "string"}
+      - { label: CZ kategorie, name: kategorie, widget: string }
+      - { label: "CZ napoj, name: napoj, widget: string }
