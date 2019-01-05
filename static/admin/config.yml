@@ -27,4 +27,4 @@ collections:
     format: yml
     fields:
       - { label: CZ kategorie, name: kategorie, widget: string }
-      - { label: "CZ napoj, name: napoj, widget: string }
+      - { label: CZ napoj, name: napoj, widget: string }
