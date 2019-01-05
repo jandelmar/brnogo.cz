@@ -1,11 +1,9 @@
-cz:
-  cz-kategorie: Závitky Nem
-  cz-jidlo: 2 nem rán chay
-  cz-popis: smažené závitky v rýžovém papíru, skleněné nudle, tofu, zelenina
-en:
-  en-kategorie: Rolls Nem
-  en-jidlo: 2 nem rán chay
-  en-popis: fried spring rolls with tofu
+cz-kategorie: Závitky Nem
+cz-jidlo: 2 nem rán chay
+cz-popis: smažené závitky v rýžovém papíru, skleněné nudle, tofu, zelenina
+en-kategorie: Rolls Nem
+en-jidlo: 2 nem rán chay
+en-popis: fried spring rolls with tofu
 alergeny: [3, 6]
 typ: VEG
 cena: 65

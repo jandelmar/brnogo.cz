@@ -1,11 +1,9 @@
-cz:
-  cz-kategorie: Závitky Nem
-  cz-jidlo: 2 nem cuốn bò
-  cz-popis: čerstvé závitky v rýžovém papíru, rýžové nudle, hovězí maso, zelenina, čerstvé bylinky, omáčka
-en:
-  en-kategorie: Rolls Nem
-  en-jidlo: 2 nem cuốn bò
-  en-popis: fresh rolls with beef
+cz-kategorie: Závitky Nem
+cz-jidlo: 2 nem cuốn bò
+cz-popis: čerstvé závitky v rýžovém papíru, rýžové nudle, hovězí maso, zelenina, čerstvé bylinky, omáčka
+en-kategorie: Rolls Nem
+en-jidlo: 2 nem cuốn bò
+en-popis: fresh rolls with beef
 alergeny: [3]
 typ:
 cena: 69
