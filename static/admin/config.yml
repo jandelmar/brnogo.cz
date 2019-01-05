@@ -22,12 +22,12 @@ collections:
         fields:
           - { name: en-jidlo, label: Jídlo, widget: string }
           - { name: en-popis, label: Popis, widget: string }
-      - { name: kategorie, label: Kategorie, widget: relation, collection: kategorie, searchFields: [kategorie], valueField: kategorie }
+      - { name: kategorie, label: Kategorie, widget: relation, collection: jidlo-kategorie, searchFields: [kategorie], valueField: kategorie }
       - { name: alergeny, label: Alergeny, widget: list, required: false }
       - { name: typ, label: Typ, widget: select, options: [V, VEG], required: false }
       - { name: cena, label: Cena, widget: number, valueType: int }
   - name: jidlo-kategorie
-    label: Kategorie Jídel
+    label: Kategorie jídel
     create: true
     folder: content/jidlo-kategorie/
     identifier_field: cz-jidlo
