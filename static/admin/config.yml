@@ -8,7 +8,7 @@ media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
 collections:
   - name: jidlo
-    label: "Jídlo"
+    label: Jídlo
     create: true
     folder: "content/jidlo/"
     format: "yml"
@@ -17,7 +17,7 @@ collections:
       - {label: "CZ jidlo", name: "jidlo", widget: "string"}
       - {label: "CZ popis", name: "popis", widget: "string"}
   - name: napoje
-    label: "Nápoje"
+    label: Nápoje
     create: true
     folder: "content/napoje/"
     format: "yml"
