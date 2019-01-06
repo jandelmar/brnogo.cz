@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: jandelmar/brnogo.cz
-  branch: netlify-cms-test
+  branch: gatsby-netlify-cms
 # Media files will be stored in the repo under static/images/uploads
 media_folder: static/images/uploads
  # The src attribute for uploaded media will begin with /images/uploads
