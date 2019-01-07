@@ -5,13 +5,14 @@ const primary = '#EE524E'
 const secondary = '#FAB131'
 
 const GlobalStyle = createGlobalStyle`
-  body {
-    color: white;
-    margin: 0 auto;
-    max-width: 650px;
-    padding: 0 1rem;
-    background: ${primary};
-  }
+    * {
+        box-sizing: border-box;
+    }
+    
+    html, body, img {
+        margin: 0;
+        padding: 0;
+    }
 `
 
 export {

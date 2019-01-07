@@ -1,12 +1,21 @@
 import React from 'react'
+import styled from 'styled-components'
 
 import { GlobalStyle } from '../styles/index'
-import Navigation from './navigation'
+import Sidebar from './sidebar'
+
+const Content = styled.main`
+    @media (min-width: 48em) {
+        margin-left: 22rem;
+    }
+`
 
 export default ({ children }) => (
     <React.Fragment>
         <GlobalStyle />
-        <Navigation />
-        {children}
+        <Sidebar />
+        <Content>
+            {children}
+        </Content>
     </React.Fragment>
 )
