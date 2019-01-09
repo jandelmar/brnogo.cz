@@ -19,7 +19,6 @@ const Sidebar = styled.nav`
 `
 
 const Links = styled.ul`
-    font-size: 0.8rem;
     padding-right: 1rem;
     list-style-type: none;
 
@@ -34,6 +33,10 @@ const Links = styled.ul`
 
     li {
         margin: 0;
+    }
+
+    @media (max-width: 48em) {
+        padding-bottom: 1.5rem;
     }
 
     @media (min-width: 48em) {
@@ -53,6 +56,10 @@ const Links = styled.ul`
 const Logo = styled.img`
     width: 50%;
     border-bottom: 4px dotted white;
+
+    @media (max-width: 48em) {
+        margin-bottom: 0.5rem;
+    }
 
     @media (min-width: 48em) {
         width: 80%;
