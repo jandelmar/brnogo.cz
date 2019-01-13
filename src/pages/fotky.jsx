@@ -5,7 +5,7 @@ import Fotogalerie from '../components/fotogalerie'
 
 export default () => (
   <Layout>
-      <h1>Fotogalerie</h1>
+      <h1>Fotky</h1>
       <Fotogalerie />
   </Layout>
 )

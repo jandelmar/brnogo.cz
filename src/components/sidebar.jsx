@@ -1,25 +1,18 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import styled from 'styled-components'
+import { FaFacebook } from 'react-icons/fa'
 
 import { primary, secondary } from '../styles'
 
 const Sidebar = styled.nav`
     background: ${primary};
-    text-align: center;
-    width: 100%;
-
-    @media (min-width: 48em) {
-        position: fixed;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        width: 18rem;
-    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 `
 
 const Links = styled.ul`
-    padding-right: 1rem;
     list-style-type: none;
 
     a {
@@ -35,21 +28,19 @@ const Links = styled.ul`
         margin: 0;
     }
 
-    @media (max-width: 48em) {
-        padding-bottom: 1.5rem;
+    @media (min-width: 48em) {
+        position: sticky;
+        bottom: 5%;
+        text-align: right;
+        width: 15rem;
+        margin-top: auto;
+        margin-left: 0;
     }
 
-    @media (min-width: 48em) {
-        font-size: 1.2rem;
-        text-align: right;
-        position: absolute;
-        right: 1rem;
-        bottom: 1rem;
-        left: 1rem;
-
-        li {
-            margin-bottom: 0.8rem;
-        }
+    @media (max-width: 48em) {
+        margin: 0;
+        text-align: center;
+        padding-bottom: 1rem;
     }
 `
 
@@ -62,6 +53,8 @@ const Logo = styled.img`
     }
 
     @media (min-width: 48em) {
+        position: sticky;
+        top: 0;
         width: 80%;
     }
 `
@@ -70,10 +63,11 @@ export default () => (
     <Sidebar>
         <Logo src="img/Go_Logo1.svg" alt="Go logo"></Logo>
         <Links>
+            <li><a href="https://www.facebook.com/GoBrno/" target="_blank"><FaFacebook size="2rem"/></a></li>
             <li><Link to="/">O nás</Link></li>
             <li><Link to="/jidlo">Jídlo</Link></li>
             <li><Link to="/napoje">Nápoje</Link></li>
-            <li><Link to="/fotogalerie">Fotogalerie</Link></li>
+            <li><Link to="/fotky">Fotky</Link></li>
         </Links>
     </Sidebar>
 )
