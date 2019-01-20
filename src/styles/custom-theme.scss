@@ -1,0 +1,21 @@
+$primary: #EE524E;
+$secondary:#FAB131;
+
+// Bootstrap and its default variables
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+.sidebar {
+    @media (min-width: 768px) {
+        position: fixed;
+        height: 100%;
+    }
+}
+
+a {
+    color: white;
+
+    &:hover {
+        color: $secondary;
+        text-decoration: none;
+    }
+}
