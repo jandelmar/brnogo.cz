@@ -1,21 +1,43 @@
 $primary: #EE524E;
 $secondary:#FAB131;
 
+$link-color: $primary;
+
+$line-height-base: 2;
+
 // Bootstrap and its default variables
 @import "../../node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Noto+Sans:400,700');
 
-.sidebar {
-    @media (min-width: 768px) {
-        position: fixed;
-        height: 100%;
-    }
+body {
+    font-family: 'Noto Sans';
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inconsolata';
+    font-weight: 400;
 }
 
 a {
+    &:hover {
+        color: $secondary;
+        text-decoration: none;
+    }
+}
+
+.sidebar a {
     color: white;
 
     &:hover {
         color: $secondary;
         text-decoration: none;
+    }
+}
+
+.sidebar {
+    @media (min-width: 768px) {
+        position: fixed;
+        height: 100%;
     }
 }

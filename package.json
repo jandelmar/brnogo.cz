@@ -19,6 +19,7 @@
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-icons": "^3.3.0",
+    "react-photo-gallery": "^6.3.0",
     "reactstrap": "^7.1.0"
   }
 }

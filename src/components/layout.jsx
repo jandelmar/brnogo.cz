@@ -1,5 +1,5 @@
 import React from 'react'
-import {Container, Row, Col} from 'reactstrap'
+import {Container, Row} from 'reactstrap'
 
 import '../styles/custom-theme.scss'
 
@@ -9,7 +9,7 @@ export default ({ children }) => (
     <Container fluid>
         <Row>
             <Sidebar />
-            <main className="col-md-9 col-xl-10 ml-md-auto">
+            <main className="col-md-9 col-xl-10 ml-md-auto p-4 pt-5 ">
                 {children}
             </main>
         </Row>
