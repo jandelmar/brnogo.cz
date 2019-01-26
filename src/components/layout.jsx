@@ -9,7 +9,7 @@ export default ({ children }) => (
     <Container fluid>
         <Row>
             <Sidebar />
-            <main className="col-md-9 col-xl-10 ml-md-auto p-4 pt-5 ">
+            <main className="col-md-9 col-xl-10 ml-md-auto p-4 pt-md-5 ">
                 {children}
             </main>
         </Row>

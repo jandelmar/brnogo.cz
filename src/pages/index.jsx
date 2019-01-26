@@ -9,12 +9,12 @@ export default () => (
         <h1>O nás</h1>
         <Container fluid={true}>
             <Row>
-                <Col className="text-center">
+                <Col className="text-center mb-4">
                     <Logo logo={2} />
                     <h2>VIETNAMEESE STREET FOOD</h2>
                     <h2>PRAVÁ VIETNAMSKÁ KUCHYNĚ</h2>
                 </Col>
-                <Col>
+                <Col className="text-center text-md-left">
                     <h2>otevírací doba</h2>
                     <p>
                         pondělí-pátek 11-22<br />
@@ -28,7 +28,7 @@ export default () => (
                     <p><a href="mailto:restaurace@brnogo.cz">restaurace@brnogo.cz</a></p>
 
                     <h2>adresa</h2>
-                    <p><a href="https://goo.gl/maps/f3NE8q2eREm" target="_blank">restaurace@brnogo.cz</a></p>
+                    <p><a href="https://goo.gl/maps/f3NE8q2eREm" target="_blank" rel="noopener noreferrer">restaurace@brnogo.cz</a></p>
 
                     <h2>provozovatel</h2>
                     <p>
