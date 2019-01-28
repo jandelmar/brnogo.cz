@@ -17,27 +17,43 @@ export default () => (
                 <Col className="text-center text-md-left">
                     <h2>otevírací doba</h2>
                     <p>
-                        pondělí-pátek 11-22<br />
-                        neděle zavřeno
+                        {data.oteviraci_doba[0]} <br />
+                        {data.oteviraci_doba[1]}
                     </p>
 
                     <h2>telefon</h2>
-                    <p>+420 542 212 543</p>
+                    <p>{data.telefon}</p>
 
                     <h2>email</h2>
-                    <p><a href="mailto:restaurace@brnogo.cz">restaurace@brnogo.cz</a></p>
+                    <p><a href={`mailto:${data.email}`}>{data.email}</a></p>
 
                     <h2>adresa</h2>
-                    <p><a href="https://goo.gl/maps/f3NE8q2eREm" target="_blank" rel="noopener noreferrer">restaurace@brnogo.cz</a></p>
+                    <p><a href={data.adresa_mapa} target="_blank" rel="noopener noreferrer">{data.adresa}</a></p>
 
                     <h2>provozovatel</h2>
                     <p>
-                        TDH 3D, spol s.r.o. <br />
-                        ičo: 29275032 <br />
-                        zodpovědná osoba: Le Ba Thuan
+                        {data.provozovatel[0]} <br />
+                        {data.provozovatel[1]} <br />
+                        {data.provozovatel[2]}
                     </p>
                 </Col>
             </Row>
         </Container>
     </Layout>
 )
+
+const data = {
+    oteviraci_doba: [
+        'pondělí-pátek 11-22',
+        'neděle zavřeno'
+    ],
+    telefon: '+420 542 212 543',
+    email: 'restaurace@brnogo.cz',
+    adresa: 'Běhounská 115/4, 602 00 Brno-střed-Brno-město',
+    adresa_mapa: 'https://goo.gl/maps/f3NE8q2eREm',
+    provozovatel: [
+        'TDH 3D, spol s.r.o.',
+        'ičo: 29275032',
+        'zodpovědná osoba: Le Ba Thuan'
+    ] 
+}

@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default ({ children }) => (
+export default () => (
     <React.Fragment>
         <ul>
             <li>jidlo či nápoj</li>
