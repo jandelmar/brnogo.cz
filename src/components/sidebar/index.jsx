@@ -1,7 +1,7 @@
 import React from 'react'
 import { Nav } from 'reactstrap'
 
-import Link from './link'
+import Link from './sidebarLink'
 import Logo from '../logo'
 
 export default () => (
