@@ -7,14 +7,12 @@ import Logo from '../components/logo'
 
 export default ({data}) => {
     const {contentYaml: {
-        o_nas: {
-            oteviraci_doba,
-            telefon,
-            email,
-            adresa,
-            adresa_mapa,
-            provozovatel
-        }
+        oteviraci_doba,
+        telefon,
+        email,
+        adresa,
+        adresa_mapa,
+        provozovatel
     }} = data
 
     return (
@@ -58,15 +56,13 @@ export default ({data}) => {
 
 export const query = graphql`
     {
-        contentYaml {
-            o_nas {
-                oteviraci_doba
-                telefon
-                email
-                adresa
-                adresa_mapa
-                provozovatel
-            }
+        contentYaml(id: {eq: "o-nas"}) {
+            oteviraci_doba
+            telefon
+            email
+            adresa
+            adresa_mapa
+            provozovatel
         }
     }
 `

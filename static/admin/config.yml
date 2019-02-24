@@ -1,4 +1,5 @@
 backend:
+  # name: test-repo
   name: github
   repo: jandelmar/brnogo.cz
   branch: gatsby-netlify-cms
@@ -22,9 +23,9 @@ collections:
         name: en
         widget: object
         fields:
-          - { name: en-kategorie, label: Kategorie, widget: relation, collection: jidlo-kategorie, searchFields: [en-kategorie], valueField: en-kategorie }
-          - { name: en-jidlo, label: Jídlo, widget: string }
-          - { name: en-popis, label: Popis, widget: string }
+          - { name: en_kategorie, label: Kategorie, widget: relation, collection: jidlo-kategorie, searchFields: [en_kategorie], valueField: en_kategorie }
+          - { name: en_jidlo, label: Jídlo, widget: string }
+          - { name: en_popis, label: Popis, widget: string }
       - { name: alergeny, label: Alergeny, widget: list, required: false }
       - { name: typ, label: Typ, widget: select, options: [V, VEG, BL], required: false }
       - { name: cena, label: Cena, widget: number, valueType: int, default: 1, min: 1 }
@@ -42,5 +43,25 @@ collections:
         label: EN
         widget: object
         fields:
-          - { name: en-kategorie, label: Kategorie, widget: string }
-          - { name: en-info, label: Info, widget: string, required: false }
+          - { name: en_kategorie, label: Kategorie, widget: string }
+          - { name: en_info, label: Info, widget: string, required: false }
+  - name: ostatni
+    label: Ostatní
+    files:
+      - name: o-nas
+        label: O nás
+        file: content/o-nas.yml
+        fields:
+          - { name: oteviraci_doba, label: Otevírací doba, widget: list}
+          - { name: telefon, label: Telefon, widget: string}
+          - { name: email, label: Email, widget: string}
+          - { name: adresa, label: Adresa, widget: string}
+          - { name: adresa_mapa, label: Adresa mapa, widget: string}
+          - { name: provozovatel, label: Provozovatel, widget: list}
+      - name: menu-info
+        label: Menu info
+        file: content/menu-info.yml
+        fields:
+          - { name: krabice, label: Krabice, widget: string}
+          - { name: druhy_jidel, label: Druhy jídel, widget: string}
+          - { name: alergeny, label: Alergeny, widget: list}

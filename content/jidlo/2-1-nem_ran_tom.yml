@@ -3,9 +3,9 @@ kategorie: Závitky Nem
 jidlo: 2 nem rán tom
 popis: smažené závitky v rýžovém papíru, skleněné nudle, krevety, vepřové maso, zelenina
 en:
-  en-kategorie: Rolls Nem
-  en-jidlo: 2 nem rán tom
-  en-popis: fried spring rolls with shrimp and pork
+  en_kategorie: Rolls Nem
+  en_jidlo: 2 nem rán tom
+  en_popis: fried spring rolls with shrimp and pork
 alergeny: [2, 3]
 typ:
 cena: 65
