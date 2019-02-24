@@ -23,7 +23,7 @@ collections:
         name: en
         widget: object
         fields:
-          - { name: kategorie, label: Kategorie, widget: relation, collection: jidlo-kategorie, searchFields: [kategorie], valueField: kategorie }
+          - { name: kategorie, label: Kategorie, widget: relation, collection: jidlo-kategorie, searchFields: [en, kategorie], valueField: kategorie }
           - { name: jidlo, label: Jídlo, widget: string }
           - { name: popis, label: Popis, widget: string }
       - { name: alergeny, label: Alergeny, widget: list, required: false }
