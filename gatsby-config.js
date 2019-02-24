@@ -1,21 +1,17 @@
 module.exports = {
-  plugins: [
-    'gatsby-plugin-netlify-cms',
-    'gatsby-transformer-yaml',
-    'gatsby-plugin-sass',
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: 'jidlo',
-        path: `${__dirname}/content/jidlo/`
-      },
+    siteMetadata:{
+        author: 'Jan Delmar'
     },
-    {
-    resolve: 'gatsby-source-filesystem',
-    options: {
-        name: 'napoje',
-        path: `${__dirname}/content/napoje/`
-    },
-    }
-  ],
-};
+    plugins: [
+        'gatsby-plugin-netlify-cms',
+        'gatsby-transformer-yaml',
+        'gatsby-plugin-sass',
+        {
+            resolve: 'gatsby-source-filesystem',
+            options: {
+                name: 'content',
+                path: `${__dirname}/content/`
+            },
+        }
+    ]
+}

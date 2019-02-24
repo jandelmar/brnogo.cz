@@ -1,16 +1,13 @@
 import React from 'react'
 import { Row, Col, Nav, NavLink } from 'reactstrap'
 
-export default () => (
+export default ({categories}) => (
     <Row>
         <Col>
             <Nav className="justify-content-center text-center">
-                <NavLink href="#">Salát Nộm</NavLink>
-                <NavLink href="#">Závitky Nem</NavLink>
-                <NavLink href="#">Ploché rýžové nudle Phở</NavLink>
-                <NavLink href="#">Kulaté rýžové nudle Bún</NavLink>
-                <NavLink href="#">Rýže Cơm</NavLink>
-                <NavLink href="#">Skleněné nudle Miến</NavLink>
+                {categories.map((category, i) => 
+                    <NavLink href={`#${i}`}>{category.kategorie}</NavLink>    
+                )}
             </Nav>
         </Col>
     </Row>

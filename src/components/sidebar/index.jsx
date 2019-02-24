@@ -9,8 +9,8 @@ export default () => (
         <Logo logo={1}/>
         <Nav vertical className="mb-3 mb-md-auto">
             <Link link="" title="O nás" />
-            <Link link="jidlo" title="Jídlo" />
-            <Link link="napoje" title="Nápoje" />
+            <Link link="menu" title="Menu" />
+            {/* <Link link="napoje" title="Nápoje" /> */}
             <Link link="fotky" title="Fotky" />
             <Link isFacebook link="https://www.facebook.com/GoBrno/" />
         </Nav>

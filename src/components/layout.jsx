@@ -5,7 +5,7 @@ import '../styles/custom-theme.scss'
 
 import Sidebar from './sidebar'
 
-export default ({ children }) => (
+export default ({children}) => (
     <Container fluid>
         <Row>
             <Sidebar />
