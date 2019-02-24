@@ -7,7 +7,7 @@ export default ({logo}) => {
         case 2: 
             return (
                 <Link to="/">
-                    <img src="img/Go_Logo2.png" alt="logo Go" className="img-fluidmb-5" />
+                    <img src="img/Go_Logo2.png" alt="restaurace Go Brno" className="img-fluid mb-5" />
                 </Link>
             )
         // main white logo
@@ -15,7 +15,7 @@ export default ({logo}) => {
         default:
             return (
                 <Link to="/">
-                    <img id="logo" src="img/Go_Logo1.svg" alt="logo Go" className="img-fluid pb-2 pb-md-4 mb-3 mb-md-4" />
+                    <img id="logo" src="img/Go_Logo1.svg" alt="restaurace Go Brno" className="img-fluid pb-2 pb-md-4 mb-3 mb-md-4" />
                 </Link>
             )
     }
