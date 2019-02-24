@@ -16,14 +16,13 @@ collections:
     format: yml
     fields:
       - { name: poradi, label: Pořadí, widget: number, default: 1, min: 1 }      
-      - { name: kategorie, label: Kategorie, widget: relation, collection: jidlo-kategorie, searchFields: [kategorie], valueField: kategorie }
+      - { name: kategorie, label: Kategorie, widget: relation, collection: jidlo-kategorie, searchFields: [kategorie], valueField: nazev }
       - { name: jidlo, label: Jídlo, widget: string }
       - { name: popis, label: Popis, widget: string }
       - label: EN
         name: en
         widget: object
         fields:
-          - { name: kategorie, label: Kategorie, widget: relation, collection: jidlo-kategorie, searchFields: [en, kategorie], valueField: kategorie }
           - { name: jidlo, label: Jídlo, widget: string }
           - { name: popis, label: Popis, widget: string }
       - { name: alergeny, label: Alergeny, widget: list, required: false }
