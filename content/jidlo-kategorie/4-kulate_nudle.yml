@@ -1,5 +1,6 @@
 poradi: 4
 kategorie: Kulaté rýžové nudle Bún
 info:
-en_kategorie: Rice noodles Bún
-en_info: 
+en:
+  kategorie: Rice noodles Bún
+  info: 

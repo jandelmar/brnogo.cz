@@ -1,5 +1,6 @@
 poradi: 5
 kategorie: Rýže Cơm
 info:
-en_kategorie: Rice Cơm
-en_info: 
+en:
+  kategorie: Rice Cơm
+  info: 

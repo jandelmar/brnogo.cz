@@ -18,20 +18,21 @@ alergeny:
   - Vlčí bob (lupina)
   - Měkkýši
 
-en_krabice: Take away box +10 Kč
-en_druhy_jidel: VEG – vegetarian, V – vegan, BL – gluten-free (for every meal except baguettes)
-en_alergeny:
-  - Cereals containing gluten
-  - Crustaceans
-  - Eggs
-  - Fish
-  - Peanuts
-  - Soybeans
-  - Milk (including lactose)
-  - Nuts (almonds, hazelnuts, walnuts, cashews, pecan nuts, Brazil nuts, pistachio nuts, macadamia or Queensland nuts)
-  - Celery
-  - Mustard and products thereof
-  - Sesame seeds and products thereof
-  - Sulphur dioxide and sulphites
-  - Lupin
-  - Molluscs
+en:
+  krabice: Take away box +10 Kč
+  druhy_jidel: VEG – vegetarian, V – vegan, BL – gluten-free (for every meal except baguettes)
+  alergeny:
+    - Cereals containing gluten
+    - Crustaceans
+    - Eggs
+    - Fish
+    - Peanuts
+    - Soybeans
+    - Milk (including lactose)
+    - Nuts (almonds, hazelnuts, walnuts, cashews, pecan nuts, Brazil nuts, pistachio nuts, macadamia or Queensland nuts)
+    - Celery
+    - Mustard and products thereof
+    - Sesame seeds and products thereof
+    - Sulphur dioxide and sulphites
+    - Lupin
+    - Molluscs

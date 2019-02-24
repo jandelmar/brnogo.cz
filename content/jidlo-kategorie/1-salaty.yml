@@ -1,5 +1,6 @@
 poradi: 1
 kategorie: Salát Nộm
 info:
-en_kategorie: Salad Nộm
-en_info:
+en:
+  kategorie: Salad Nộm
+  info:
