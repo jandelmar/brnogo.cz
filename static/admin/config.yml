@@ -1,41 +1,46 @@
 backend:
-  name: test-repo
-  # repo: jandelmar/brnogo.cz
-  # branch: gatsby-netlify-cms
+  name: github
+  repo: jandelmar/brnogo.cz
+  branch: gatsby-netlify-cms
 # Media files will be stored in the repo under static/images/uploads
 media_folder: static/images/uploads
  # The src attribute for uploaded media will begin with /images/uploads
 public_folder: /images/uploads
 collections:
-  - name: jidlo
-    label: Jídlo
+  - name: menu
+    label: Menu
     create: true
-    folder: content/jidlo/
-    identifier_field: cz-jidlo
+    folder: content/menu/
+    identifier_field: jidlo
     format: yml
     fields:
+      - { name: poradi, label: Pořadí, widget: number, default: 1, min: 1 }      
+      - { name: kategorie, label: Kategorie, widget: relation, collection: jidlo-kategorie, searchFields: [kategorie], valueField: kategorie }
       - { name: jidlo, label: Jídlo, widget: string }
       - { name: popis, label: Popis, widget: string }
       - label: EN
         name: en
         widget: object
         fields:
+          - { name: en-kategorie, label: Kategorie, widget: relation, collection: jidlo-kategorie, searchFields: [en-kategorie], valueField: en-kategorie }
           - { name: en-jidlo, label: Jídlo, widget: string }
           - { name: en-popis, label: Popis, widget: string }
-      - { name: kategorie, label: Kategorie, widget: relation, collection: jidlo-kategorie, searchFields: [kategorie], valueField: kategorie }
       - { name: alergeny, label: Alergeny, widget: list, required: false }
-      - { name: typ, label: Typ, widget: select, options: [V, VEG], required: false }
-      - { name: cena, label: Cena, widget: number, valueType: int }
-  - name: jidlo-kategorie
-    label: Kategorie jídel
+      - { name: typ, label: Typ, widget: select, options: [V, VEG, BL], required: false }
+      - { name: cena, label: Cena, widget: number, valueType: int, default: 1, min: 1 }
+  - name: menu-kategorie
+    label: Kategorie menu
     create: true
-    folder: content/jidlo-kategorie/
-    identifier_field: cz-jidlo
+    folder: content/menu-kategorie/
+    identifier_field: kategorie
     format: yml
     fields:
+      - { name: poradi, label: Pořadí, widget: number, default: 1, min: 1 }
       - { name: kategorie, label: Kategorie, widget: string }
-      - label: EN
-        name: en
+      - { name: info, label: Info, widget: string, required: false }
+      - name: en
+        label: EN
         widget: object
         fields:
           - { name: en-kategorie, label: Kategorie, widget: string }
+          - { name: en-info, label: Info, widget: string, required: false }
