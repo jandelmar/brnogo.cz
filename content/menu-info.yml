@@ -1,5 +1,7 @@
+id: menu-info
+
 krabice: Krabice s sebou +10 Kč
-druhy_jidel: 'VEG – vegetariánské, V – veganské, BL – bezlepkové (platí u všeho kromě baget)'
+druhy_jidel: VEG – vegetariánské, V – veganské, BL – bezlepkové (platí u všeho kromě baget)
 alergeny:
   - Lepek
   - Korýši
@@ -8,9 +10,7 @@ alergeny:
   - Arašídy (podzemnice olejná)
   - Sója
   - Mléko
-  - >-
-    Skořápkové plody (mandle, lískové ořechy, vlašské ořechy, kešu ořechy,
-    pekanové ořechy, para ořechy, pistácie, makadamie)
+  - Skořápkové plody (mandle, lískové ořechy, vlašské ořechy, kešu ořechy, pekanové ořechy, para ořechy, pistácie, makadamie)
   - Celer
   - Hořčice
   - Sezam (sezamová semena)
