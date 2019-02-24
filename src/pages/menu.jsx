@@ -5,12 +5,12 @@ import Layout from '../components/layout'
 import Menu from '../components/menu'
 
 export default ({data}) => {
-    const categories = data.allJidloKategorieYaml.edges.reduce((acc, curr) => {
+    const categories = data.allMenuKategorieYaml.edges.reduce((acc, curr) => {
         acc.push(curr.node)
         return acc
     }, [])
 
-    const meals = data.allJidloYaml.edges.reduce((acc, curr) => {
+    const meals = data.allMenuYaml.edges.reduce((acc, curr) => {
         acc.push(curr.node)
         return acc
     }, [])
@@ -27,7 +27,7 @@ export default ({data}) => {
 
 export const query = graphql`
     {
-        allJidloKategorieYaml (sort: {fields: poradi, order: ASC}) {
+        allMenuKategorieYaml (sort: {fields: poradi, order: ASC}) {
             edges {
                 node {
                     poradi
@@ -36,7 +36,7 @@ export const query = graphql`
                 }
             }
         }
-        allJidloYaml (sort: {fields: poradi, order: ASC}) {
+        allMenuYaml (sort: {fields: poradi, order: ASC}) {
             edges {
                 node {
                     poradi
