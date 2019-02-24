@@ -9,7 +9,7 @@ export default ({category, id, meals}) => (
         <Row className="justify-content-center">
             <Col md="4" xl="3">
                 <h2 className="menu-category m-3 text-center text-primary" id={id}>
-                    {category.kategorie}
+                    {category.nazev}
                 </h2>
             </Col>
         </Row>

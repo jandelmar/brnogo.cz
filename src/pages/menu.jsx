@@ -32,6 +32,7 @@ export const query = graphql`
                 node {
                     poradi
                     kategorie
+                    nazev
                     info
                 }
             }
