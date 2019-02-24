@@ -37,12 +37,13 @@ collections:
     fields:
       - { name: poradi, label: Pořadí, widget: number, default: 1, min: 1 }
       - { name: kategorie, label: Kategorie, widget: string }
+      - { name: nazev, label: Název, widget: string }
       - { name: info, label: Info, widget: string, required: false }
       - name: en
         label: EN
         widget: object
         fields:
-          - { name: kategorie, label: Kategorie, widget: string }
+          - { name: nazev, label: Název, widget: string }
           - { name: info, label: Info, widget: string, required: false }
   - name: ostatni
     label: Ostatní
