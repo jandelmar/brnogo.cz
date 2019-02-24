@@ -7,10 +7,10 @@ media_folder: static/images/uploads
  # The src attribute for uploaded media will begin with /images/uploads
 public_folder: /images/uploads
 collections:
-  - name: menu
-    label: Menu
+  - name: jidlo
+    label: Jídlo
     create: true
-    folder: content/menu/
+    folder: content/jidlo/
     identifier_field: jidlo
     format: yml
     fields:
@@ -28,10 +28,10 @@ collections:
       - { name: alergeny, label: Alergeny, widget: list, required: false }
       - { name: typ, label: Typ, widget: select, options: [V, VEG, BL], required: false }
       - { name: cena, label: Cena, widget: number, valueType: int, default: 1, min: 1 }
-  - name: menu-kategorie
-    label: Kategorie menu
+  - name: jidlo-kategorie
+    label: Kategorie jidlo
     create: true
-    folder: content/menu-kategorie/
+    folder: content/jidlo-kategorie/
     identifier_field: kategorie
     format: yml
     fields:
