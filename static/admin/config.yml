@@ -58,6 +58,16 @@ collections:
           - { name: adresa, label: Adresa, widget: string}
           - { name: adresa_mapa, label: Adresa mapa, widget: string}
           - { name: provozovatel, label: Provozovatel, widget: list}
+          - name: en
+            label: EN
+            widget: object
+            fields:
+              - { name: en_oteviraci_doba, label: Otevírací doba, widget: list}
+              - { name: en_telefon, label: Telefon, widget: string}
+              - { name: en_email, label: Email, widget: string}
+              - { name: en_adresa, label: Adresa, widget: string}
+              - { name: en_adresa_mapa, label: Adresa mapa, widget: string}
+              - { name: en_provozovatel, label: Provozovatel, widget: list}
       - name: menu-info
         label: Menu info
         file: content/menu-info.yml
