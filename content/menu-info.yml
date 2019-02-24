@@ -1,7 +1,5 @@
-id: menu-info
-
-krabice: Krabice s sebou +10 Kč
-druhy_jidel: VEG – vegetariánské, V – veganské, BL – bezlepkové (platí u všeho kromě baget)
+krabice: Krabice s sebou +20 Kč
+druhy_jidel: 'VEG – vegetariánské, V – veganské, BL – bezlepkové (platí u všeho kromě baget)'
 alergeny:
   - Lepek
   - Korýši
@@ -10,29 +8,12 @@ alergeny:
   - Arašídy (podzemnice olejná)
   - Sója
   - Mléko
-  - Skořápkové plody (mandle, lískové ořechy, vlašské ořechy, kešu ořechy, pekanové ořechy, para ořechy, pistácie, makadamie)
+  - >-
+    Skořápkové plody (mandle, lískové ořechy, vlašské ořechy, kešu ořechy,
+    pekanové ořechy, para ořechy, pistácie, makadamie)
   - Celer
   - Hořčice
   - Sezam (sezamová semena)
   - Oxid siřičitý a siřičitany
   - Vlčí bob (lupina)
   - Měkkýši
-
-en:
-  krabice: Take away box +10 Kč
-  druhy_jidel: VEG – vegetarian, V – vegan, BL – gluten-free (for every meal except baguettes)
-  alergeny:
-    - Cereals containing gluten
-    - Crustaceans
-    - Eggs
-    - Fish
-    - Peanuts
-    - Soybeans
-    - Milk (including lactose)
-    - Nuts (almonds, hazelnuts, walnuts, cashews, pecan nuts, Brazil nuts, pistachio nuts, macadamia or Queensland nuts)
-    - Celery
-    - Mustard and products thereof
-    - Sesame seeds and products thereof
-    - Sulphur dioxide and sulphites
-    - Lupin
-    - Molluscs
