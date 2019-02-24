@@ -2,9 +2,10 @@ poradi: 1
 kategorie: Salát Nộm
 jidlo: Nộm su hào cà rốt
 popis: salát z kedlubny a mrkve, krevetové lupínky, čerstvé bylinky, arašídy  
-en_kategorie: Salad Nộm
-en_jidlo: Nộm su hào cà rốt
-en_popis: salad of kohlrabi and carrot with prawn crackers
+en:  
+  kategorie: Salad Nộm
+  jidlo: Nộm su hào cà rốt
+  popis: salad of kohlrabi and carrot with prawn crackers
 alergeny: [2, 5]
 typ:
 cena: 65

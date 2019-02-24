@@ -1,5 +1,6 @@
 poradi: 2
 kategorie: Závitky Nem
 info: Omáčky k čerstvým závitkům (zálivka z rybí omáčky, ananasová omáčka)
-en_kategorie: Rolls Nem
-en_info: Sauces for fresh rolls (fish sauce, pineapple sauce)
+en:
+  kategorie: Rolls Nem
+  info: Sauces for fresh rolls (fish sauce, pineapple sauce)
