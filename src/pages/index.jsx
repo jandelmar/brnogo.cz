@@ -1,5 +1,5 @@
 import React from 'react'
-import {Container, Row, Col} from 'reactstrap'
+import { Container, Row, Col } from 'reactstrap'
 import { graphql } from 'gatsby'
 
 import Layout from '../components/layout'
@@ -28,8 +28,7 @@ export default ({data}) => {
                     <Col className="text-center text-md-left">
                         <h2>otevírací doba</h2>
                         <p>
-                            {oteviraci_doba[0]} <br />
-                            {oteviraci_doba[1]}
+                            {oteviraci_doba.map((line, i) => oteviraci_doba.length === i+1 ? <span>{line}</span> : <span>{line}<br /></span>)}
                         </p>
 
                         <h2>telefon</h2>
@@ -43,9 +42,7 @@ export default ({data}) => {
 
                         <h2>provozovatel</h2>
                         <p>
-                            {provozovatel[0]} <br />
-                            {provozovatel[1]} <br />
-                            {provozovatel[2]}
+                            {provozovatel.map((line, i) => provozovatel.length === i+1 ? <span>{line}</span> : <span>{line}<br /></span>)}
                         </p>
                     </Col>
                 </Row>

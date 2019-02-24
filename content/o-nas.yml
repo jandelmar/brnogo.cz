@@ -1,11 +1,10 @@
 id: o-nas
 
 oteviraci_doba:
-  - pondělí-pátek 11-22
-  - neděle zavřeno
+  - denně 11-22
 telefon: +420 542 212 543
 email: 'restaurace@brnogo.cz'
-adresa: 'Běhounská 115/4, 602 00 Brno-střed-Brno-město'
+adresa: 'Běhounská 4, Brno'
 adresa_mapa: 'https://goo.gl/maps/f3NE8q2eREm'
 provozovatel:
   - 'TDH 3D, spol s.r.o.'
@@ -14,12 +13,7 @@ provozovatel:
 
 en:
   oteviraci_doba:
-    - pondělí-pátek 11-22
-    - neděle zavřeno
-  telefon: +420 542 212 543
-  email: 'restaurace@brnogo.cz'
-  adresa: 'Běhounská 115/4, 602 00 Brno-střed-Brno-město'
-  adresa_mapa: 'https://goo.gl/maps/f3NE8q2eREm'
+    - denně 11-22
   provozovatel:
     - 'TDH 3D, spol s.r.o.'
     - 'ičo: 29275032'

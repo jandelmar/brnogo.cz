@@ -63,10 +63,6 @@ collections:
             widget: object
             fields:
               - { name: oteviraci_doba, label: Otevírací doba, widget: list}
-              - { name: telefon, label: Telefon, widget: string}
-              - { name: email, label: Email, widget: string}
-              - { name: adresa, label: Adresa, widget: string}
-              - { name: adresa_mapa, label: Adresa mapa, widget: string}
               - { name: provozovatel, label: Provozovatel, widget: list}
       - name: menu-info
         label: Menu info
