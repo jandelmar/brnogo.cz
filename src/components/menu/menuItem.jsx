@@ -11,7 +11,7 @@ export default ({meal}) => (
                         {meal.typ ? <span className="font-weight-normal"> ({meal.typ})</span> : null}
                     </span>
                     <sup className="food-alergens text-primary pl-2">
-                        {meal.alergeny.map((alergen, i) => 
+                        {meal.alergeny && meal.alergeny.map((alergen, i) => 
                             meal.alergeny.length === i + 1 ? alergen : `${alergen}~`
                         )}
                     </sup>
