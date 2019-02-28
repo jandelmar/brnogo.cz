@@ -17,7 +17,7 @@ export default ({meal}) => (
                     </sup>
                 </Col>
                 <Col md="3" className="food-price">
-                    {meal.cena} Kč
+                    {meal.cena}&nbsp;Kč
                 </Col>
             </Row>
             <Row>
