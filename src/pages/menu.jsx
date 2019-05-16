@@ -5,22 +5,34 @@ import Layout from '../components/layout'
 import Menu from '../components/menu'
 
 export default ({data}) => {
-    const categories = data.allJidloKategorieYaml.edges.reduce((acc, curr) => {
+    const jidloKategorie = data.allJidloKategorieYaml.edges.reduce((acc, curr) => {
         acc.push(curr.node)
         return acc
     }, [])
 
-    const meals = data.allJidloYaml.edges.reduce((acc, curr) => {
+    const jidlo = data.allJidloYaml.edges.reduce((acc, curr) => {
         acc.push(curr.node)
         return acc
     }, [])
 
+    const napojeKategorie = data.allNapojeKategorieYaml.edges.reduce((acc, curr) => {
+        acc.push(curr.node)
+        return acc
+    }, [])
+
+    const napoje = data.allNapojeYaml.edges.reduce((acc, curr) => {
+        acc.push(curr.node)
+        return acc
+    }, [])
+
+    const categories = [...jidloKategorie, ...napojeKategorie]
+    const items = [...jidlo, ...napoje]
     const menuInfo = data.contentYaml
 
     return (
         <Layout>
             <h1>Menu</h1>
-            <Menu categories={categories} meals={meals} info={menuInfo} />
+            <Menu categories={categories} items={items} info={menuInfo} />
         </Layout>
     )
 }
@@ -50,10 +62,31 @@ export const query = graphql`
                 }
             }
         }
+        allNapojeKategorieYaml (sort: {fields: poradi, order: ASC}) {
+            edges {
+                node {
+                    poradi
+                    kategorie
+                    nazev
+                    info
+                }
+            }
+        }
+        allNapojeYaml (sort: {fields: poradi, order: ASC}) {
+            edges {
+                node {
+                    napoj
+                    kategorie
+                    objem
+                    cena
+                }
+            }
+        }
         contentYaml(id: {eq: "menu-info"}) {
             krabice
             druhy_jidel
             alergeny
+            napoje
         }
     }
 `
