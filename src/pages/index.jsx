@@ -7,6 +7,7 @@ import Logo from '../components/logo'
 
 export default ({data}) => {
     const {contentYaml: {
+        rezervace,
         oteviraci_doba,
         telefon,
         email,
@@ -24,8 +25,10 @@ export default ({data}) => {
                         <Logo logo={2} />
                         <h2>VIETNAMEESE STREET FOOD</h2>
                         <h2>PRAVÁ VIETNAMSKÁ KUCHYNĚ</h2>
+                        
                     </Col>
                     <Col className="text-center text-md-left">
+                        <p>{rezervace}</p>
                         <h2>otevírací doba</h2>
                         <p>
                             {oteviraci_doba.map((line, i) => oteviraci_doba.length === i+1 ? <span>{line}</span> : <span>{line}<br /></span>)}
@@ -54,6 +57,7 @@ export default ({data}) => {
 export const query = graphql`
     {
         contentYaml(id: {eq: "o-nas"}) {
+            rezervace
             oteviraci_doba
             telefon
             email
