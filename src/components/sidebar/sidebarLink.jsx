@@ -1,18 +1,33 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import { NavItem, NavLink } from 'reactstrap'
-import { FaFacebookF } from 'react-icons/fa'
+import { FaFacebookF, FaInstagram, FaTripadvisor, FaFoursquare } from 'react-icons/fa'
 
-export default ({link, title, isFacebook = false}) => (
+export default ({link, title, Facebook = false, Instagram = false, Tripadvisor = false, Foursquare = false}) => (
     <NavItem>
-        { !isFacebook &&
+        { !Facebook && !Instagram && !Tripadvisor && !Foursquare &&
             <NavLink>
                 <Link to={`/${link}`}>{title}</Link>
             </NavLink>
         }
-        { isFacebook &&
+        { Facebook &&
             <NavLink href={link} target="_blank">
                 <FaFacebookF />
+            </NavLink>
+        }
+        { Instagram &&
+            <NavLink href={link} target="_blank">
+                <FaInstagram />
+            </NavLink>
+        }
+        { Tripadvisor &&
+            <NavLink href={link} target="_blank">
+                <FaTripadvisor />
+            </NavLink>
+        }
+        { Foursquare &&
+            <NavLink href={link} target="_blank">
+                <FaFoursquare />
             </NavLink>
         }
     </NavItem>
