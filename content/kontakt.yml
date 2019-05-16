@@ -1,0 +1,20 @@
+id: kontakt
+
+rezervace: Můžete udělat rezervaci přes náš Facebook, telefon nebo e-mail.
+oteviraci_doba:
+  - denně 11-22h
+  - vaříme do 21h30
+telefon: +420 720 021 575
+email: 'restaurace@brnogo.cz'
+adresa: 'Běhounská 115/4, 602 00 Brno'
+adresa_mapa: 'https://goo.gl/maps/f3NE8q2eREm'
+provozovatel:
+  - 'TDH 3D, spol s.r.o.'
+  - 'ičo: 29275032'
+
+en:
+  oteviraci_doba:
+    - denně 11-22
+  provozovatel:
+    - 'TDH 3D, spol s.r.o.'
+    - 'ičo: 29275032'
