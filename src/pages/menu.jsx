@@ -1,4 +1,5 @@
 import React from 'react'
+import { Helmet } from "react-helmet"
 import { graphql } from 'gatsby'
 
 import Layout from '../components/layout'
@@ -31,6 +32,10 @@ export default ({data}) => {
 
     return (
         <Layout>
+            <Helmet>
+                <title>Gỗ | Menu</title>
+                <link rel="canonical" href="https://brnogo.cz/menu" />
+            </Helmet>
             <h1>Menu</h1>
             <Menu categories={categories} items={items} info={menuInfo} />
         </Layout>

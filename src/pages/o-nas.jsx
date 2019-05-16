@@ -1,4 +1,5 @@
 import React from 'react'
+import { Helmet } from "react-helmet"
 import { Container, Row, Col } from 'reactstrap'
 import { graphql } from 'gatsby'
 
@@ -12,6 +13,10 @@ export default ({data}) => {
 
     return (
         <Layout>
+            <Helmet>
+                <title>Gỗ | O nás</title>
+                <link rel="canonical" href="https://brnogo.cz/o-nas  " />
+            </Helmet>
             <h1>O nás</h1>
             <Container fluid={true}>
                 <Row className="justify-content-center">
