@@ -1,20 +1,5 @@
 id: o-nas
 
-rezervace: Můžete udělat rezervaci přes náš Facebook, telefon nebo e-mail.
-oteviraci_doba:
-  - denně 11-22h
-  - vaříme do 21h30
-telefon: +420 720 021 575
-email: 'restaurace@brnogo.cz'
-adresa: 'Běhounská 115/4, 602 00 Brno'
-adresa_mapa: 'https://goo.gl/maps/f3NE8q2eREm'
-provozovatel:
-  - 'TDH 3D, spol s.r.o.'
-  - 'ičo: 29275032'
-
-en:
-  oteviraci_doba:
-    - denně 11-22
-  provozovatel:
-    - 'TDH 3D, spol s.r.o.'
-    - 'ičo: 29275032'
+onas: >
+  Pravá vietnamská kuchyně v centru Brna. Máte rádi vietnamské klasiky jako polévku Phở, grilovaný bůček Bún chả nebo misku plnou rýžových nudlí s opékaným hovězím masem Bún bò Nam Bộ?
+  Nenechte si ujít náš krásný interiér, chutné jídlo a pohled do naší otevřené kuchyně. Navštívit nás můžete na Běhounské 4 (blízko náměstí Svobody). 
