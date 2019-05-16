@@ -84,9 +84,9 @@ export const query = graphql`
         }
         contentYaml(id: {eq: "menu-info"}) {
             krabice
+            napoje
             druhy_jidel
             alergeny
-            napoje
         }
     }
 `
