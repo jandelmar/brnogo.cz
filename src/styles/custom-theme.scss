@@ -26,6 +26,21 @@ a {
     }
 }
 
+.caption {
+    color: white;
+    z-index: 1;
+    font-size: 4em;
+}
+
+.carousel-item {
+    height: 90vh;
+    min-height: 350px;
+
+    img {
+        max-width: 100vw;
+    }
+  }
+
 .sidebar a {
     color: white;
 
