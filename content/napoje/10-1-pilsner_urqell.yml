@@ -1,0 +1,7 @@
+poradi: 1
+kategorie: pivo
+napoj: Pilsner Urquell 12°
+en:
+  napoj: Pilsner Urquell 12°
+objem: [0.5, 0.33]
+cena: [45, 35]

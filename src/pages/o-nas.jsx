@@ -14,9 +14,13 @@ export default ({data}) => {
         <Layout>
             <h1>O nás</h1>
             <Container fluid={true}>
+                <Row className="justify-content-center">
+                    <Col className="col-md-8 col-lg-6 text-center mb-4">
+                        {onas}
+                    </Col>
+                </Row>
                 <Row>
-                    <Col className="text-center mb-4">
-                        <p>{onas}</p>
+                    <Col className="text-center">
                         <Logo logo={2} />
                         <h2>VIETNAMEESE STREET FOOD</h2>
                         <h2>PRAVÁ VIETNAMSKÁ KUCHYNĚ</h2>
