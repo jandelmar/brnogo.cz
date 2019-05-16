@@ -11,7 +11,6 @@ adresa_mapa: 'https://goo.gl/maps/f3NE8q2eREm'
 provozovatel:
   - 'TDH 3D, spol s.r.o.'
   - 'ičo: 29275032'
-  - 'zodpovědná osoba: Le Ba Thuan'
 
 en:
   oteviraci_doba:
@@ -19,4 +18,3 @@ en:
   provozovatel:
     - 'TDH 3D, spol s.r.o.'
     - 'ičo: 29275032'
-    - 'zodpovědná osoba: Le Ba Thuan'
