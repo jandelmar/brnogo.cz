@@ -14,18 +14,18 @@ export default () => (
     <h1>Fotografie</h1>
     <Row className="mb-4">
         <Col>
+            <h2>Naše pokrmy</h2>
+            <Photogallery photos={jidlo} />
+        </Col>
+    </Row>
+    <Row className="mb-4">
+        <Col>
             <h2>Interiér</h2>
             <p>interiér od architekta Martiny Hrdiny, fotografie od Kiva photo</p>
             <Photogallery photos={interier} />
         </Col>
     </Row>
-    <Row>
-        <Col>
-            <h2>Naše pokrmy</h2>
-            <Photogallery photos={jidlo} />
-        </Col>
-    </Row>
-
+    
   </Layout>
 )
 

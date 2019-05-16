@@ -1,14 +1,17 @@
 import React from 'react'
-import { Helmet } from "react-helmet"
 import { Container, Row, Col } from 'reactstrap'
 
 import Layout from '../components/layout'
+import Carousel from '../components/carousel'
+
+const image = `${__dirname}photos/Go-interier-11.jpg`
 
 export default () => (
     <Layout>
         <Container fluid={true}>
             <Row>
-                <Col className="text-center mb-4">
+                <Col>
+                    <Carousel />
                 </Col>
             </Row>
         </Container>
