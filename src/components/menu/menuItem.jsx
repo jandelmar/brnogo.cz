@@ -20,8 +20,8 @@ export default ({meal: item}) => (
                     </sup>
                 </Col>
                 <Col md="3" className="food-price">
-                    {item.jidlo || item.napoj && item.cena.length != 2 ? <span>{item.cena}&nbsp;Kč</span> : null}
-                    {item.napoj && item.cena.length == 2 ? <span>{item.cena[0]}/{item.cena[1]}&nbsp;Kč</span> : null}
+                    {(item.jidlo || item.napoj) && item.cena.length !== 2 ? <span>{item.cena}&nbsp;Kč</span> : null}
+                    {item.napoj && item.cena.length === 2 ? <span>{item.cena[0]}/{item.cena[1]}&nbsp;Kč</span> : null}
                 </Col>
             </Row>
             <Row>
