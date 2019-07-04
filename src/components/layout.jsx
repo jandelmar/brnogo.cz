@@ -6,7 +6,7 @@ import '../styles/custom-theme.scss'
 
 import Sidebar from './sidebar'
 
-export default ({children}) => (
+export default ({children, nopadding}) => (
     <Container fluid>
         <Helmet>
             <meta charSet="utf-8" />
@@ -15,9 +15,16 @@ export default ({children}) => (
         </Helmet>
         <Row>
             <Sidebar />
-            <main className="col-md-9 col-xl-10 ml-md-auto p-4 pt-md-5">
-                {children}
-            </main>
+            {nopadding ? 
+                <main className="col-md-9 col-xl-10 ml-md-auto nopadding pt-md-5">
+                    {children}
+                </main>
+                :
+                <main className="col-md-9 col-xl-10 ml-md-auto pt-md-5">
+                    {children}
+                </main>
+            }
+
         </Row>
     </Container>
 )
