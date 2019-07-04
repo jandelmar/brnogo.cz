@@ -5,24 +5,28 @@ import {
 
 const items = [
     {
+        src: `${__dirname}photos/Go-jidlo-9.jpg`,
+        altText: "Jidlo"
+    },
+    {
         src: `${__dirname}photos/Go-jidlo-2.jpg`,
-        altText: 1
+        altText: "Jidlo"
     },
     {
         src: `${__dirname}photos/Go-interier-11.jpg`,
-        altText: 2,
+        altText: "Interier"
     },
     {
         src: `${__dirname}photos/Go-interier-5.jpg`,
-        altText: 3
+        altText: "Interier"
     },
     {
         src: `${__dirname}photos/Go-interier-9.jpg`,
-        altText: 4
+        altText: "Interier"
     },
     {
         src: `${__dirname}photos/Go-interier-0.jpg`,
-        altText: 5
+        altText: "Interier"
     }
 ]
 
