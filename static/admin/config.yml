@@ -1,5 +1,4 @@
 backend:
-  # name: test-repo
   name: github
   repo: jandelmar/brnogo.cz
   branch: gatsby-netlify-cms
@@ -19,17 +18,17 @@ collections:
       - { name: kategorie, label: Kategorie, widget: relation, collection: jidlo-kategorie, searchFields: [kategorie], valueField: kategorie }
       - { name: jidlo, label: Jídlo, widget: string }
       - { name: popis, label: Popis, widget: string }
-      - label: EN
-        name: en
-        widget: object
-        fields:
-          - { name: jidlo, label: Jídlo, widget: string }
-          - { name: popis, label: Popis, widget: string }
+      # - name: en
+      #   label: EN
+      #   widget: object
+      #   fields:
+      #     - { name: jidlo, label: Jídlo, widget: string }
+      #     - { name: popis, label: Popis, widget: string }
       - { name: alergeny, label: Alergeny, widget: list, required: false }
       - { name: typ, label: Typ, widget: select, options: [V, VEG, BL], required: false }
       - { name: cena, label: Cena, widget: number, valueType: int, default: 1, min: 1 }
   - name: jidlo-kategorie
-    label: Kategorie jidlo
+    label: Kategorie jídlo
     create: true
     folder: content/jidlo-kategorie/
     identifier_field: kategorie
@@ -39,42 +38,88 @@ collections:
       - { name: kategorie, label: Kategorie, widget: string }
       - { name: nazev, label: Název, widget: string }
       - { name: info, label: Info, widget: string, required: false }
-      - name: en
-        label: EN
-        widget: object
-        fields:
-          - { name: nazev, label: Název, widget: string }
-          - { name: info, label: Info, widget: string, required: false }
+      # - name: en
+      #   label: EN
+      #   widget: object
+      #   fields:
+      #     - { name: nazev, label: Název, widget: string }
+      #     - { name: info, label: Info, widget: string, required: false }
+  - name: napoje
+    label: Nápoje
+    create: true
+    folder: content/napoje/
+    identifier_field: napoj
+    format: yml
+    fields:
+      - { name: poradi, label: Pořadí, widget: number, default: 1, min: 1 }      
+      - { name: kategorie, label: Kategorie, widget: relation, collection: napoje-kategorie, searchFields: [kategorie], valueField: kategorie }
+      - { name: napoj, label: Nápoj, widget: string }
+      # - name: en
+      #   label: EN
+      #   widget: object
+      #   fields:
+      #     - { name: napoj, label: Nápoj, widget: string }
+      - { name: objem, label: Objem, widget: number, valueType: float, default: 0, min: 0 }
+      - { name: cena, label: Cena, widget: number, valueType: int, default: 1, min: 1 }
+  - name: napoje-kategorie
+    label: Kategorie nápoje
+    create: true
+    folder: content/napoje-kategorie/
+    identifier_field: kategorie
+    format: yml
+    fields:
+      - { name: poradi, label: Pořadí, widget: number, default: 1, min: 1 }
+      - { name: kategorie, label: Kategorie, widget: string }
+      - { name: nazev, label: Název, widget: string }
+      - { name: info, label: Info, widget: string, required: false }
+      # - name: en
+      #   label: EN
+      #   widget: object
+      #   fields:
+      #     - { name: nazev, label: Název, widget: string }
+      #     - { name: info, label: Info, widget: string, required: false }
   - name: ostatni
     label: Ostatní
     files:
-      - name: o-nas
-        label: O nás
-        file: content/o-nas.yml
+      - name: kontakt
+        label: Kontakt
+        file: content/kontakt.yml
         fields:
           - { name: oteviraci_doba, label: Otevírací doba, widget: list}
           - { name: telefon, label: Telefon, widget: string}
           - { name: email, label: Email, widget: string}
           - { name: adresa, label: Adresa, widget: string}
-          - { name: adresa_mapa, label: Adresa mapa, widget: string}
+          - { name: adresa_mapa, label: Adresa - odkaz na mapu, widget: string}
           - { name: provozovatel, label: Provozovatel, widget: list}
-          - name: en
-            label: EN
-            widget: object
-            fields:
-              - { name: oteviraci_doba, label: Otevírací doba, widget: list}
-              - { name: provozovatel, label: Provozovatel, widget: list}
+          # - name: en
+          #   label: EN
+          #   widget: object
+          #   fields:
+          #     - { name: oteviraci_doba, label: Otevírací doba, widget: list}
+          #     - { name: provozovatel, label: Provozovatel, widget: list}
       - name: menu-info
         label: Menu info
         file: content/menu-info.yml
         fields:
-          - { name: krabice, label: Krabice, widget: string}
+          - { name: krabice, label: Krabice s sebou, widget: string}
+          - { name: napoje, label: Nápoj s sebou, widget: string}
           - { name: druhy_jidel, label: Druhy jídel, widget: string}
           - { name: alergeny, label: Alergeny, widget: list}
-          - name: en
-            label: EN
-            widget: object
-            fields:
-              - { name: krabice, label: Krabice, widget: string}
-              - { name: druhy_jidel, label: Druhy jídel, widget: string}
-              - { name: alergeny, label: Alergeny, widget: list}
+          # - name: en
+          #   label: EN
+          #   widget: object
+          #   fields:
+          #     - { name: krabice, label: Krabice, widget: string}
+          #     - { name: napoje, label: Nápoj s sebou, widget: string}
+          #     - { name: druhy_jidel, label: Druhy jídel, widget: string}
+          #     - { name: alergeny, label: Alergeny, widget: list}
+      - name: o-nas
+        label: O nás
+        file: content/o-nas.yml
+        fields:
+          - { name: o_nas, label: O nás, widget: text}
+          # - name: en
+          #   label: EN
+          #   widget: object
+          #   fields:
+          #     - { name: o_nas, label: O nás, widget: text}

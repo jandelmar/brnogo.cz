@@ -8,8 +8,8 @@ import Logo from '../components/logo'
 
 export default ({data}) => {
     const {
-        onas: {
-            onas
+        o_nas: {
+            o_nas
         },
         kontakt: {
             adresa
@@ -26,7 +26,7 @@ export default ({data}) => {
             <Container fluid={true}>
                 <Row className="justify-content-center">
                     <Col className="col-md-8 col-lg-6 text-center mb-4">
-                        {onas}
+                        {o_nas}
                     </Col>
                 </Row>
                 <Row>
@@ -44,8 +44,8 @@ export default ({data}) => {
 
 export const query = graphql`
     {
-        onas: contentYaml(id: {eq: "o-nas"}) {
-            onas
+        o_nas: contentYaml(id: {eq: "o-nas"}) {
+            o_nas
         }
         kontakt: contentYaml(id: {eq: "kontakt"}) {
             adresa
