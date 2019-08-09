@@ -59,8 +59,8 @@ collections:
       #   widget: object
       #   fields:
       #     - { name: napoj, label: Nápoj, widget: string }
-      - { name: objem, label: Objem, widget: number, valueType: float, default: 0, min: 0 }
-      - { name: cena, label: Cena, widget: number, valueType: int, default: 1, min: 1 }
+      - { name: objem, label: Objem, widget: list, default: [0], required: false }
+      - { name: cena, label: Cena, widget: list, default: [1] }
   - name: napoje-kategorie
     label: Kategorie nápoje
     create: true
