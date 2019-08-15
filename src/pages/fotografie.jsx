@@ -5,30 +5,6 @@ import {Row, Col} from 'reactstrap'
 import Layout from '../components/layout'
 import Photogallery from '../components/photogallery'
 
-export default () => (
-  <Layout>
-    <Helmet>
-        <title>Gỗ | Fotografie</title>
-        <link rel="canonical" href="https://brnogo.cz/fotografie" />
-    </Helmet>
-    <h1>Fotografie</h1>
-    <Row className="mb-4">
-        <Col>
-            <h2>Naše pokrmy</h2>
-            <Photogallery photos={jidlo} />
-        </Col>
-    </Row>
-    <Row className="mb-4">
-        <Col>
-            <h2>Interiér</h2>
-            <p>interiér od architekta Martiny Hrdiny, fotografie od Kiva photo</p>
-            <Photogallery photos={interier} />
-        </Col>
-    </Row>
-    
-  </Layout>
-)
-
 const interier = [
     {src: `${__dirname}photos/Go-interier-resized-0.jpg`, width: 360, height: 480},
     {src: `${__dirname}photos/Go-interier-resized-1.jpg`, width: 558, height: 480},
@@ -56,3 +32,27 @@ const jidlo = [
     {src: `${__dirname}photos/Go-jidlo-resized-7.jpg`, width: 640, height: 427},
     {src: `${__dirname}photos/Go-jidlo-resized-8.jpg`, width: 640, height: 427},
 ]
+
+export default () => (
+  <Layout>
+    <Helmet>
+        <title>Gỗ | Fotografie</title>
+        <link rel="canonical" href="https://brnogo.cz/fotografie" />
+    </Helmet>
+    <h1>Fotografie</h1>
+    <Row className="mb-4">
+        <Col>
+            <h2>Naše pokrmy</h2>
+            <Photogallery photos={jidlo} />
+        </Col>
+    </Row>
+    <Row className="mb-4">
+        <Col>
+            <h2>Interiér</h2>
+            <p>interiér od architekta Martiny Hrdiny, fotografie od Kiva photo</p>
+            <Photogallery photos={interier} />
+        </Col>
+    </Row>
+    
+  </Layout>
+)
