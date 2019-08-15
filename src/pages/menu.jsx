@@ -5,26 +5,17 @@ import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 import Menu from '../components/menu'
 
+const convertDataYamlToArray = yaml => yaml.edges.reduce((acc, curr) => {
+    acc.push(curr.node)
+    return acc
+}, [])
+
 export default ({data}) => {
-    const jidloKategorie = data.allJidloKategorieYaml.edges.reduce((acc, curr) => {
-        acc.push(curr.node)
-        return acc
-    }, [])
+    const jidlo = convertDataYamlToArray(data.allJidloYaml)
+    const jidloKategorie = convertDataYamlToArray(data.allJidloKategorieYaml)
 
-    const jidlo = data.allJidloYaml.edges.reduce((acc, curr) => {
-        acc.push(curr.node)
-        return acc
-    }, [])
-
-    const napojeKategorie = data.allNapojeKategorieYaml.edges.reduce((acc, curr) => {
-        acc.push(curr.node)
-        return acc
-    }, [])
-
-    const napoje = data.allNapojeYaml.edges.reduce((acc, curr) => {
-        acc.push(curr.node)
-        return acc
-    }, [])
+    const napoje = convertDataYamlToArray(data.allNapojeYaml)
+    const napojeKategorie = convertDataYamlToArray(data.allNapojeKategorieYaml)
 
     const categories = [...jidloKategorie, ...napojeKategorie]
     const items = [...jidlo, ...napoje]
