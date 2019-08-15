@@ -18,10 +18,6 @@ const items = [
         altText: "Interier"
     },
     {
-        src: `${__dirname}photos/Go-interier-5.jpg`,
-        altText: "Interier"
-    },
-    {
         src: `${__dirname}photos/Go-interier-9.jpg`,
         altText: "Interier"
     },
