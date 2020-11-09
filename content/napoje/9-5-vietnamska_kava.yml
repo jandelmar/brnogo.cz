@@ -1,7 +1,6 @@
 poradi: 5
 kategorie: kava_caj
-napoj: Vietnamská káva Trung Nguyên
-en:
-  napoj: Vietnamese coffee Trung Nguyên
+napoj: Cà Phê Phin
 objem: []
-cena: [55]
+cena:
+  - 55
