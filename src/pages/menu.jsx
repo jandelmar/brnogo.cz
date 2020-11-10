@@ -72,6 +72,7 @@ export const query = graphql`
             edges {
                 node {
                     napoj
+                    popis
                     kategorie
                     objem
                     cena

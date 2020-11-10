@@ -54,11 +54,13 @@ collections:
       - { name: poradi, label: Pořadí, widget: number, default: 1, min: 1 }      
       - { name: kategorie, label: Kategorie, widget: relation, collection: napoje-kategorie, searchFields: [kategorie], valueField: kategorie }
       - { name: napoj, label: Nápoj, widget: string }
+      - { name: popis, label: Popis, widget: string }
       # - name: en
       #   label: EN
       #   widget: object
       #   fields:
       #     - { name: napoj, label: Nápoj, widget: string }
+      #     - { name: popis, label: Popis, widget: string }
       - { name: objem, label: Objem, widget: list, default: [0], required: false }
       - { name: cena, label: Cena, widget: list, default: [1] }
   - name: napoje-kategorie
