@@ -7,7 +7,7 @@ export default ({link, title, Facebook = false, Instagram = false, Tripadvisor =
     <NavItem>
         { !Facebook && !Instagram && !Tripadvisor && !Foursquare &&
             <NavLink>
-                <Link to={`/${link}`}>{title}</Link>
+                <Link to={link}>{title}</Link>
             </NavLink>
         }
         { Facebook &&
