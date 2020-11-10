@@ -85,6 +85,7 @@ collections:
         label: Kontakt
         file: content/kontakt.yml
         fields:
+          - { name: id, label: id, widget: hidden}
           - { name: oteviraci_doba, label: Otevírací doba, widget: list}
           - { name: telefon, label: Telefon, widget: string}
           - { name: email, label: Email, widget: string}
@@ -101,6 +102,7 @@ collections:
         label: Menu info
         file: content/menu-info.yml
         fields:
+          - { name: id, label: id, widget: hidden}
           - { name: krabice, label: Krabice s sebou, widget: string}
           - { name: napoje, label: Nápoj s sebou, widget: string}
           - { name: druhy_jidel, label: Druhy jídel, widget: string}
@@ -117,6 +119,7 @@ collections:
         label: O nás
         file: content/o-nas.yml
         fields:
+          - { name: id, label: id, widget: hidden}
           - { name: o_nas, label: O nás, widget: text}
           # - name: en
           #   label: EN
