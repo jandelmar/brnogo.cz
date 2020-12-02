@@ -1,11 +1,10 @@
 id: kontakt
-
 oteviraci_doba:
-  - denně od 10h - 20h (vaříme do 19.45)
+  - denně od 10:30 - 22:00 (vaříme do 21:30)
 telefon: +420 720 021 575
 email: restaurace@brnogo.cz
-adresa: 'Běhounská 115/4, 602 00 Brno'
-adresa_mapa: 'https://goo.gl/maps/f3NE8q2eREm'
+adresa: Běhounská 115/4, 602 00 Brno
+adresa_mapa: https://goo.gl/maps/f3NE8q2eREm
 provozovatel:
-  - 'TDH 3D, spol s.r.o.'
-  - 'ičo: 29275032'
+  - TDH 3D, spol s.r.o.
+  - "ičo: 29275032"
