@@ -1,7 +1,7 @@
 poradi: 6
 kategorie: kava_caj
-napoj: Vietnamská ledová káva Trung Nguyên
-en:
-  napoj: Vietnamese ice coffee Trung Nguyên
+napoj: 'Cà Phê Phin đá (ledová vietnamská káva) '
+popis: ""
 objem: []
-cena: [55]
+cena:
+  - 55

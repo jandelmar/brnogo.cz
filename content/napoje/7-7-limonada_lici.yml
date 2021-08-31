@@ -1,7 +1,10 @@
 poradi: 7
 kategorie: nealko
-napoj: Limonáda (mango, liči)
+napoj: Limonáda (mango, liči, kokos)
+popis: limonáda
 en:
   napoj: Lemonade (mango, litchi)
-objem: [0.25]
-cena: [45]
+objem:
+  - 0.25
+cena:
+  - 45

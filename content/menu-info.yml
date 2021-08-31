@@ -1,8 +1,8 @@
 id: menu-info
 
-krabice: Krabice s sebou +10 Kč
-napoje: Rádi Vám připravíme ledovou kávu nebo domácí limonádu s sebou.
-druhy_jidel: VEG – vegetariánské, V – veganské, BL – bezlepkové (platí u všeho kromě baget)
+krabice: Krabice s sebou +15 Kč
+napoje: Všechny nápoje Vám rádi připravíme i s sebou.
+druhy_jidel: 'VEG – vegetariánské, V – veganské, BL – bezlepkové '
 alergeny:
   - Lepek
   - Korýši
@@ -11,30 +11,12 @@ alergeny:
   - Arašídy (podzemnice olejná)
   - Sója
   - Mléko
-  - Skořápkové plody (mandle, lískové ořechy, vlašské ořechy, kešu ořechy, pekanové ořechy, para ořechy, pistácie, makadamie)
+  - >-
+    Skořápkové plody (mandle, lískové ořechy, vlašské ořechy, kešu ořechy,
+    pekanové ořechy, para ořechy, pistácie, makadamie)
   - Celer
   - Hořčice
   - Sezam (sezamová semena)
   - Oxid siřičitý a siřičitany
   - Vlčí bob (lupina)
   - Měkkýši
-
-en:
-  krabice: Take away box +10 CZK
-  napoje: We can make you our ice coffee or home-made lemonade to take-away.
-  druhy_jidel: VEG – vegetarian, V – vegan, BL – gluten-free (for every meal except baguettes)
-  alergeny:
-    - Cereals containing gluten
-    - Crustaceans
-    - Eggs
-    - Fish
-    - Peanuts
-    - Soybeans
-    - Milk (including lactose)
-    - Nuts (almonds, hazelnuts, walnuts, cashews, pecan nuts, Brazil nuts, pistachio nuts, macadamia or Queensland nuts)
-    - Celery
-    - Mustard and products thereof
-    - Sesame seeds and products thereof
-    - Sulphur dioxide and sulphites
-    - Lupin
-    - Molluscs
