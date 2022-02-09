@@ -1,8 +1,9 @@
 poradi: 7
 kategorie: kava_caj
-napoj: Čaj z čerstvé máty / z čerstvého zázvoru
-popis: ""
+napoj: Trà bạc hà ~ Trà gừng
+popis: Čaj z čerstvé máty ~ z čerstvého zázvoru
 en:
   napoj: Tea from fresh mint / fresh ginger
 objem: []
-cena: [55]
+cena:
+  - 55
