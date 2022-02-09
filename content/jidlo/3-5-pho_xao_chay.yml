@@ -5,6 +5,7 @@ popis: restované rýžové nudle, tofu, zelenina, koriandr
 en:
   jidlo: Phở xào chay
   popis: fried rice noodles with tofu
-alergeny: [6]
+alergeny:
+  - 6
 typ: V
-cena: 145
+cena: 155
