@@ -1,11 +1,10 @@
 poradi: 1
 kategorie: kulaté nudle
-jidlo: 'Bun nem '
-popis: >-
-  rýžové nudle, smažené závitky s vepřovým masem a s krevetami, zelenina,
+jidlo: "Bun nem "
+popis: rýžové nudle, smažené závitky s vepřovým masem a s krevetami, zelenina,
   čerstvé bylinky, rybí omáčka
 alergeny:
   - 2
   - 3
   - 4
-cena: 145
+cena: 155
