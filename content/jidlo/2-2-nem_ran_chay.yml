@@ -2,9 +2,11 @@ poradi: 2
 kategorie: závitky
 jidlo: 2 nem rán chay
 popis: smažené závitky v rýžovém papíru, skleněné nudle, tofu, zelenina
-en:  
+en:
   jidlo: 2 nem rán chay
   popis: fried spring rolls with tofu
-alergeny: [3, 6]
+alergeny:
+  - 3
+  - 6
 typ: VEG
-cena: 65
+cena: 75
