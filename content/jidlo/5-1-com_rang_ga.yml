@@ -5,6 +5,7 @@ popis: restovaná rýže, kuřecí maso, zelenina, koriandr
 en:
   jidlo: Cơm rang gà
   popis: fried rice with chicken and vegetables
-alergeny: [3]
-typ:
-cena: 145
+alergeny:
+  - 3
+typ: null
+cena: 155
