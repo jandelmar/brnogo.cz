@@ -1,10 +1,12 @@
 poradi: 5
 kategorie: závitky
 jidlo: 2 nem cuốn chay
-popis: čerstvé závitky v rýžovém papíru, rýžové nudle, tofu, zelenina, čerstvé bylinky, omáčka
+popis: čerstvé závitky v rýžovém papíru, rýžové nudle, tofu, zelenina, čerstvé
+  bylinky, omáčka
 en:
   jidlo: 2 nem cuốn chay
   popis: vegetarian fresh rolls
-alergeny: [6]
+alergeny:
+  - 6
 typ: V
-cena: 69
+cena: 75
