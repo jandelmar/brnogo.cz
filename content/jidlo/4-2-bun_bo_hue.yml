@@ -1,10 +1,12 @@
 poradi: 2
 kategorie: kulaté nudle
 jidlo: Bún bò Huế
-popis: vývar, 3 druhy masa (hovězí, vietnamská šunka, vepřové koleno) rýžové nudle, citronová tráva, vietnamské bylinky
+popis: vývar, 3 druhy masa (hovězí, vietnamská šunka, vepřové koleno) rýžové
+  nudle, citronová tráva, vietnamské bylinky
 en:
   jidlo: Bún bò Huế
-  popis: broth, 3 types of meat (beef, vietnamese ham, pork hock), rice noodles, lemon grass, vietnamese herbs
+  popis: broth, 3 types of meat (beef, vietnamese ham, pork hock), rice noodles,
+    lemon grass, vietnamese herbs
 alergeny: []
-typ:
-cena: 145
+typ: null
+cena: 159
