@@ -1,8 +1,10 @@
 poradi: 4
 kategorie: pivo
 napoj: Vietnamské pivo Bia Saigon
-popis: ""
+popis: lahvové pivo
 en:
   napoj: Vietnamese beer Bia Saigon
-objem: [0.33]
-cena: [49]
+objem:
+  - 0.33
+cena:
+  - "55"
