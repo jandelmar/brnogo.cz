@@ -1,8 +1,9 @@
 poradi: 9
 kategorie: kava_caj
 napoj: Konvice vietnamského zeleného čaje
-popis: ""
+popis: .
 en:
   napoj: Tea-pot of Vietnamese green tea
 objem: []
-cena: [55]
+cena:
+  - "65"

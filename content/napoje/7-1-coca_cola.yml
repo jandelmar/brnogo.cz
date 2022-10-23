@@ -1,8 +1,10 @@
 poradi: 1
 kategorie: nealko
 napoj: Coca Cola / Coca Cola Light
-popis: ""
+popis: .
 en:
   napoj: Coca Cola / Coca Cola Light
-objem: [0.33]
-cena: [39]
+objem:
+  - "0.33"
+cena:
+  - "45"

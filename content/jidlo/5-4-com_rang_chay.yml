@@ -5,6 +5,7 @@ popis: restovaná rýže, tofu, zelenina, koriandr
 en:
   jidlo: Cơm rang chay
   popis: fried rice with tofu and vegetables
-alergeny: [6]
+alergeny:
+  - 6
 typ: V
-cena: 129
+cena: 159

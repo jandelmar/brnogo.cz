@@ -1,8 +1,12 @@
 poradi: 1
 kategorie: limonady
-napoj: Grepová, Zázvorová, Passion Fruit
-popis: ""
+napoj: "Chanh đá ~ Bưởi ~ Chanh dây ~ Gừng ~ Trà đá "
+popis: Citron ~ Grepová ~ Zázvorová ~ Passion Fruit ~ Ledový čaj
 en:
   napoj: Grapefruit, Ginger, Passion Fruit
-objem: [0.4, 1]
-cena: [59, 109]
+objem:
+  - 0.4
+  - 1
+cena:
+  - "69"
+  - "119"

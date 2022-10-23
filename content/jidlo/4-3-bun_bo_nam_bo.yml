@@ -1,10 +1,13 @@
 poradi: 3
 kategorie: kulaté nudle
 jidlo: Bún bò Nam Bộ
-popis: rýžové nudle, restované hovězí maso na česneku, zelenina, mungo klíčky, čerstvé bylinky, arašídy, rybí omáčka
+popis: rýžové nudle, restované hovězí maso na česneku, zelenina, mungo klíčky,
+  čerstvé bylinky, arašídy, rybí omáčka
 en:
   jidlo: Bún bò Nam Bộ
   popis: rice noodles with beef, vegetables and fish sauce
-alergeny: [4, 5]
-typ:
-cena: 139
+alergeny:
+  - 4
+  - 5
+typ: null
+cena: 155

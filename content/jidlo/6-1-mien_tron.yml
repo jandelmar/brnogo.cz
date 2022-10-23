@@ -1,10 +1,14 @@
 poradi: 1
 kategorie: skleněné nudle
-jidlo: Miến trộn
-popis: salát se skleněnými nudlemi, restované krevety a kuřecí maso na citronové trávě, zelenina, čerstvé bylinky, rybí omáčka
+jidlo: Miến trộn tôm gà
+popis: salát se skleněnými nudlemi, restované krevety a kuřecí maso na citronové
+  trávě, zelenina, čerstvé bylinky, rybí omáčka
 en:
   jidlo: Miến trộn
   popis: salad with vermicelli noodles, fried shrimps, chicken and fish sauce
-alergeny: [2, 4, 5]
-typ:
-cena: 129
+alergeny:
+  - 2
+  - 4
+  - 5
+typ: null
+cena: 149

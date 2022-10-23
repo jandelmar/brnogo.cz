@@ -1,10 +1,12 @@
 poradi: 6
 kategorie: kulaté nudle
 jidlo: Bún chả
-popis: rýžové nudle, grilované vepřové maso na citronové trávě, zelenina, čerstvé bylinky, rybí omáčka
+popis: rýžové nudle, grilované vepřové maso na citronové trávě, zelenina,
+  čerstvé bylinky, rybí omáčka
 en:
   jidlo: Bún chả
   popis: rice noodles with grilled pork, vegetables and fish sauce
-alergeny: [4]
-typ:
-cena: 155
+alergeny:
+  - 4
+typ: null
+cena: 169
