@@ -5,6 +5,6 @@ popis: .
 en:
   napoj: Coca Cola / Coca Cola Light
 objem:
-  - "0.33"
+  - 0.33
 cena:
-  - "45"
+  - 45
