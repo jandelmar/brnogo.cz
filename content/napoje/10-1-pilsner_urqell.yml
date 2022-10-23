@@ -5,6 +5,6 @@ popis: lahvové pivo
 en:
   napoj: Pilsner Urquell 12°
 objem:
-  - "0.5"
+  - 0.5
 cena:
-  - "55"
+  - 55
