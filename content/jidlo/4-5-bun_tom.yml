@@ -5,6 +5,8 @@ popis: vývar, rýžové nudle, krevety na citronové trávě, koriandr
 en:
   jidlo: Bún tôm
   popis: broth with rice noodles and shrimps
-alergeny: [2, 4]
-typ:
-cena: 155
+alergeny:
+  - 2
+  - 4
+typ: null
+cena: 169

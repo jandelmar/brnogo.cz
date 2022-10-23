@@ -1,8 +1,10 @@
 poradi: 5
 kategorie: nealko
-napoj: Bonaqua (neperlivá, perlivá)
-popis: ""
+napoj: "Bonaqua "
+popis: "neperlivá / perlivá "
 en:
   napoj: Bonaqua (non-sparkling, sparkling)
-objem: [0.25]
-cena: [39]
+objem:
+  - 0.25
+cena:
+  - "45"

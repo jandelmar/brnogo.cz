@@ -1,8 +1,10 @@
 poradi: 3
 kategorie: nealko
-napoj: Tonic zázvor
-popis: ""
+napoj: Kinley Ginger Ale
+popis: .
 en:
   napoj: Tonic ginger
-objem: [0.25]
-cena: [39]
+objem:
+  - 0.25
+cena:
+  - "45"

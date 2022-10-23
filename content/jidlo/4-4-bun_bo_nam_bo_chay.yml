@@ -1,10 +1,13 @@
 poradi: 4
 kategorie: kulaté nudle
-jidlo: Bún bò Nam Bộ chay
-popis: rýžové nudle, tofu, zelenina, mungo klíčky, čerstvé bylinky, arašídy, sójová omáčka
+jidlo: "Bún chay Nam Bộ "
+popis: rýžové nudle, tofu, zelenina, mungo klíčky, čerstvé bylinky, arašídy,
+  sójová omáčka
 en:
   jidlo: Bún bò Nam Bộ chay
   popis: rice noodles with tofu, vegetables and soy sauce
-alergeny: [5, 6]
+alergeny:
+  - 5
+  - 6
 typ: V
-cena: 139
+cena: 155

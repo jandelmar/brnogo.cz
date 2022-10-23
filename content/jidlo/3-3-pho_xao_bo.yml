@@ -5,6 +5,7 @@ popis: restované rýžové nudle, hovězí maso, zelenina, koriandr
 en:
   jidlo: Phở xào bò
   popis: fried rice noodles with beef
-alergeny: [3]
-typ:
-cena: 155
+alergeny:
+  - 3
+typ: null
+cena: 175

@@ -1,10 +1,13 @@
 poradi: 4
 kategorie: závitky
 jidlo: 2 nem cuốn tôm
-popis: čerstvé závitky v rýžovém papíru, rýžové nudle, krevety, vepřové maso Xá Xíu, zelenina, čerstvé bylinky, omáčka
+popis: čerstvé závitky v rýžovém papíru, rýžové nudle, krevety, vepřové maso Xá
+  Xíu, zelenina, čerstvé bylinky, omáčka
 en:
   jidlo: 2 nem cuốn tôm
   popis: fresh rolls with shrimp and pork Xá Xíu
-alergeny: [2, 3]
-typ:
-cena: 69
+alergeny:
+  - 2
+  - 3
+typ: null
+cena: 79
